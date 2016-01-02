@@ -4,7 +4,7 @@ permalink: /Tags/
 title: Tags    
 tagline: 博客标签库
 image:
-  feature: line.jpg    
+  feature: street.jpg    
   credit:  Azeril
   creditlink: http://azeril.me
 ---
