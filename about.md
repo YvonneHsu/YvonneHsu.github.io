@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: /About/index.html  
-title: About Me~
+title: About Me
 tagline:   
 image:
   feature: grassland.jpg  
