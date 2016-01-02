@@ -9,19 +9,19 @@ url:              http://paw.cat
 
 # Jekyll configuration
 
-permalink:   /:categories/:title/
-markdown:    kramdown
-highlighter: pygments
+permalink:        /:categories/:title/
+markdown:         kramdown
+highlighter:      pygments
 sass:
-  sass_dir: _sass
-  style: compressed
+  sass_dir:       _sass
+  style:          compressed
 
 kramdown:
-  input: GFM
-  auto_ids: true
-  footnote_nr: 1
-  entity_output: as_char
-  toc_levels: 1..6
+  input:          GFM
+  auto_ids:       true
+  footnote_nr:    1
+  entity_output:  as_char
+  toc_levels:     1..6
   enable_coderay: false
 
 # Site owner
@@ -32,39 +32,33 @@ owner:
   bio:            "握在手里的才是自己的"
   email:          joyce02@163.com
 
-  twitter: oschrenk
-  facebook: #username
+  twitter:        #username
+  facebook:       #username
+  github:         YvonneHsu
+  weibo:          http://weibo.com/icy1991
+  linkedin:       #username
+  instagram:      #username
+  lastfm:         #username
+  tumblr:         #username
+  pinterest:      #username
+  dribbble:       #username
+  youtube:        #username
+  flickr:         #username
+
   google:
-    plus: #username
+    plus:         #username
     analytics:
     verify:
     ad-client:
     ad-slot:
-  bing-verify:
-  github:         YvonneHsu
-  weibo:          http://weibo.com/icy1991
-  stackoverflow: #username
-  linkedin: #username
-  xing: #username
-  instagram: #username
-  lastfm: #username
-  tumblr: #username
-  pinterest: #username
-  foursquare: #username
-  steam: #username
-  dribbble: #username
-  youtube: #username
-  soundcloud: #username
-  flickr: #username
-  codepen: #username
 
 # Comments 
 comments :
-  provider : duoshuo
+  provider :     duoshuo
   duoshuo :
     short_name : yvonne
   disqus :
-      short_name : yvonne
+    short_name : yvonne
 
 # Analytics and webmaster tools stuff goes here
 google_analytics:   
