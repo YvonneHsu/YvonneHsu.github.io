@@ -1,16 +1,13 @@
 # Site navigation links
 
-- title: Blog
+- title: ARTICLES
   url: /posts/
 
-- title: Resume
-  url: http://careers.stackoverflow.com/oschrenk
-
-- title: Twitter
-  url: http://twitter.com/oschrenk
+- title: Tags
+  url: /Tags/
 
 - title: Mail
-  url: mailto:oliver.schrenk+blog@gmail.com
+  url: mailto:joyce02@163.com
 
-- title: Github
+- title: About
   url: http://github.com/oschrenk
