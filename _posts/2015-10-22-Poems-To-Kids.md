@@ -5,7 +5,7 @@ excerpt: "这本可以留着给小朋友当睡前读本的小诗集"
 tags: [reading, life, ]
 comments: true
 image:
-  feature: sample-image-5.jpg
+  feature: street.jpg
   credit: Azeril
   creditlink: http://azeril.me
 ---

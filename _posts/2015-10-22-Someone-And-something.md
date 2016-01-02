@@ -5,7 +5,7 @@ excerpt: "一个个的小故事，看见别人的人生。"
 tags: [reading, life, ]
 comments: true
 image:
-  feature: sample-image-5.jpg
+  feature: waves.jpg
   credit: Azeril
   creditlink: http://azeril.me
 ---
