@@ -1,13 +1,13 @@
 # Site navigation links
 
 - title: ARTICLES
-  url: /posts/
+  url: /Articles/
 
 - title: Tags
   url: /Tags/
 
 - title: Mail
-  url: joyce02@163.com
+  url: <joyce02@163.com>
 
 - title: About
   url: /about/
