@@ -10,8 +10,8 @@ url:              http://paw.cat
 # Jekyll configuration
 
 permalink:        /:categories/:title/
-gems: [jekyll-paginate]
-paginate: 8
+gems:             [jekyll-paginate]
+paginate:         8
 
 markdown:         kramdown
 highlighter:      pygments
