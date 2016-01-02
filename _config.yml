@@ -4,8 +4,8 @@ title:            維港的煙火
 tagline:          饼干的饼干
 description:      "迷失的人迷失了 相逢的人會再相逢"
 # Your site's domain goes here. Leave localhost server or blank when working locally.
-url:              http://localhost:4000
-#url:              http://paw.cat
+#url:              http://localhost:4000
+url:              http://paw.cat
 
 # Jekyll configuration
 
