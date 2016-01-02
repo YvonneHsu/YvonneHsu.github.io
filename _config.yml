@@ -1,3 +1,5 @@
+# Site wide configuration
+
 title:            維港的煙火
 tagline:          饼干的饼干
 description:      "迷失的人迷失了 相逢的人會再相逢"
@@ -5,56 +7,14 @@ description:      "迷失的人迷失了 相逢的人會再相逢"
 url:              http://localhost:4000
 #url:              http://paw.cat
 
-# Owner/author information
-owner:
-  name:           Yvonne
-  avatar:         Yvonne.jpg 
-  favicon:        favicon.ico
-  bio:            "握在手里的才是自己的."
-  email:          joyce02@163.com
-  # Social networking links are used in author-bio sidebar. Update and remove as you like.
-  twitter:        
-  facebook:       
-  github:         YvonneHsu
-  weibo:          http://weibo.com/icy1991
-  linkedin: #username
-  linkedin: #username
-  instagram: #username
-  lastfm: #username
-  tumblr: #username
-  pinterest: #username
-  foursquare: #username
-  steam: #username
-  dribbble: #username
-  youtube: #username
-  soundcloud: #username
+# Jekyll configuration
 
-  # For Google Authorship https://plus.google.com/authorship
-  google_plus:    http://google.com/+Rebeccabfsu20 
-
-# Links to include in top navigation
-# For external links add external: true
-links:
-  - title: Articles
-    url: /Articles/
-  - title: Tags
-    url: /Tags/
-  - title: About
-    url: /About/
-    external: true
-
-# http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
-timezone:    Asia/Beijing
-
-future:      true
-highlighter:    pygments
+permalink:   /:categories/:title/
 markdown:    kramdown
-
-# https://github.com/mojombo/jekyll/wiki/Permalinks
-gems: [jekyll-paginate]
-permalink:   /:categories/:title
-paginate: 8
-
+highlighter: pygments
+sass:
+  sass_dir: _sass
+  style: compressed
 
 kramdown:
   input: GFM
@@ -64,12 +24,39 @@ kramdown:
   toc_levels: 1..6
   enable_coderay: false
 
-  coderay:
-    coderay_line_numbers: 
-    coderay_line_numbers_start: 1
-    coderay_tab_width: 4
-    coderay_bold_every: 10
-    coderay_css: class
+# Site owner
+owner:
+  name:           Yvonne
+  avatar:         Yvonne.jpg
+  favicon:        favicon.ico
+  bio:            "握在手里的才是自己的"
+  email:          joyce02@163.com
+
+  twitter: oschrenk
+  facebook: #username
+  google:
+    plus: #username
+    analytics:
+    verify:
+    ad-client:
+    ad-slot:
+  bing-verify:
+  github:         YvonneHsu
+  weibo:          http://weibo.com/icy1991
+  stackoverflow: #username
+  linkedin: #username
+  xing: #username
+  instagram: #username
+  lastfm: #username
+  tumblr: #username
+  pinterest: #username
+  foursquare: #username
+  steam: #username
+  dribbble: #username
+  youtube: #username
+  soundcloud: #username
+  flickr: #username
+  codepen: #username
 
 # Comments 
 comments :
@@ -86,4 +73,4 @@ google_verify:
 bing_verify:      
 
 include: [".htaccess"]
-exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "less", "*.sublime-project", "*.sublime-workspace", "test", "spec", "Gruntfile.js", "package.json", "node_modules"]
+exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "less", "*.sublime-project", "*.sublime-workspace", "test", "spec", "Gruntfile.js", "package.json", "node_modules", "Gemfile", "Gemfile.lock", "LICENSE", "README.md"]
