@@ -42,17 +42,6 @@ owner:
 
 # Jekyll configuration
 
-# Site navigation links
-links: 
-  - title: ARTICLES
-    url: /Articles/
-  - title: Tags
-    url: /Tags/
-  - title: Start
-    url: /Start/
-  - title: About
-    url: /About/index.html
-
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 timezone:         Asia/Beijing
 future:           true
