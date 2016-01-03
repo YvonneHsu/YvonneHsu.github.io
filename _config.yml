@@ -73,13 +73,27 @@ kramdown:
     coderay_bold_every: 10
     coderay_css: class
 
+
+# Defaults for posts
+defaults:
+  -
+    scope: 
+      path:      ""
+      type:      "posts"
+    values:
+      layout:    "post"
+      image:
+        feature: stairs2.jpg
+        credit:  Azeril
+        creditlink: http://azeril.me
+
 # Comments 
-comments :
-  provider :     duoshuo
-  duoshuo :
-    short_name : yvonne
-  disqus :
-    short_name : yvonne
+comments:
+  provider:      disqus
+  duoshuo:
+    short_name:  yvonne
+  disqus:
+    short_name:  yvonne_hsu
 
 include:         [".htaccess"]
 exclude:         ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "less", "*.sublime-project", "*.sublime-workspace", "test", "spec", "Gruntfile.js", "package.json", "node_modules", "Gemfile", "Gemfile.lock", "LICENSE", "README.md"]
