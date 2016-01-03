@@ -38,6 +38,12 @@ share: true
 
 `{% include _toc.html %}`
 
+
+## 博客图文模式 A Post with Images
+
+
+
+
 ## 文章链接 link posts
 
 没什么特别的，在显示时直接在标题边上添加一个链接的图标。点击后可直接跳转相应的网页（方便收录博客之外的网页）。
