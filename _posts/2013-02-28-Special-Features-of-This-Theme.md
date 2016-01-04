@@ -41,7 +41,9 @@ share: true
 
 ## 博客图文模式 A Post with Images
 
+在博文中并排显示多张图片的技巧。仅作了解：
 
+[Sample Post Images](http://paw.cat/Sample-Post-Images/)
 
 
 ## 文章链接 link posts
