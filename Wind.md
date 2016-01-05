@@ -1,7 +1,7 @@
 ---
 layout: page
-permalink: /About/ 
-title: About My Blog And Me
+permalink: /Wind/  
+title: About Me
 tagline:   
 image:
   feature: grassland.jpg  
