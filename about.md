@@ -4,7 +4,7 @@ permalink: /About/
 title: About My Blog And Me
 tagline:   
 image:
-  feature: grassland.jpg  
+  feature: blue.jpg  
   credit:  
   creditlink:  
 ---

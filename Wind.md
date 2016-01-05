@@ -2,14 +2,12 @@
 layout: page
 permalink: /Wind/  
 title: Catch The Wind
-tagline:   
+tagline: 点滴思绪
 image:
-  feature: grassland.jpg  
-  credit:  
-  creditlink:  
+  feature: lighttower.jpg  
+  credit: Azeril
+  creditlink: http://azeril.me
 ---
-
-
 
 杜拉斯：
 
@@ -22,4 +20,5 @@ image:
 ——詹姆斯·馬奇《馬奇論管理》 
 
 芥川龍之介：
+
 > 為了人生的幸福 我們必須熱愛日常的瑣事 也就是必須愛云的光彩 竹子的搖曳 群雀的喧聲 行人的面面相覷 從這些諸般瑣事之中 感受最高的甘露之味。

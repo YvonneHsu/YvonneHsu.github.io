@@ -1,14 +1,13 @@
 ---
 layout: page  
-permalink: /Tags/   
-title: Tags    
-tagline: 博客标签库
-image:
-  feature: street.jpg    
-  credit:  Azeril
-  creditlink: http://azeril.me
+permalink: /Tags/  
+title: Tags  
+tagline: 博客标签库  
+image:  
+  feature: street.jpg  
+  credit: Azeril  
+  creditlink: http://azeril.me  
 ---
-
 
 <div id='tag_cloud'>
 {% for tag in site.tags %}
