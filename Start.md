@@ -4,7 +4,7 @@ permalink: /Start/
 title: Start Guide
 excerpt: "开始一段新的旅程"
 image:
-  feature: walker.jpg
+  feature: windows.jpg
   credit: Azeril
   creditlink: http://azeril.me/
 ---
