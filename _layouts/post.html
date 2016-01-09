@@ -5,6 +5,7 @@
 <!--[if gt IE 8]><!--> <html class="no-js" lang="en"><!--<![endif]-->
 <head>
 {% include _head.html %}
+{% include _disqus_comments.html %}
 </head>
 
 <body class="post">
@@ -33,31 +34,44 @@
     {% include _author-bio.html %}
   </div>
   <article class="post">
+  <br/>
     <div class="headline-wrap">
       {% if page.link %}
         <h1><a href="{{ page.link }}">{{ page.title }}</a></h1>
       {% else %}
         <h1><a href="{{ site.url }}{{ page.url }}" rel="bookmark" title="{{ page.title }}">{{ page.title }}</a></h1>
       {% endif %}
-    </div>
-    <p class="byline">Published on <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%B %d, %Y" }}</time>{% if page.modified %} and last modified on <time datetime="{{ page.modified | date: "%Y-%m-%d" }}">{{ page.modified | date: "%B %d, %Y" }}</time>{% endif %}.</p>
-    Posted under <a class="catag" onmouseover="this.style.backgroundColor='{{ category.color }}',this.style.color='white'" onmouseout="this.style.backgroundColor='white',this.style.color='#343434'" href="{{ site.url }}/{{ category.slug }}/">{{ category.name }}</a> with <i class="fa fa-tags"></i>&nbsp;:&nbsp;&nbsp;&nbsp;{% for tag in page.tags %}<a class="catag" onmouseover="this.style.backgroundColor='#343434',this.style.color='white'" onmouseout="this.style.backgroundColor='white',this.style.color='#343434'" href="{{ site.url }}/tag/{{ tag }}/">{{ tag }}</a>
-    <hr /><!--/ .headline-wrap -->
+    </div><!--/ .headline-wrap -->
     <div class="article-wrap">
+      {% for site_category in site.data.categories %}
+        {% if site_category.slug == page.category %}
+          {% assign category = site_category %}
+        {% endif %}
+        <p class="byline"><strong>{{ page.title }}</strong> was published on <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%B %d, %Y" }}</time>{% if page.modified %} and last modified on <time datetime="{{ page.modified | date: "%Y-%m-%d" }}">{{ page.modified | date: "%B %d, %Y" }}</time>{% endif %}.</p>
+      {% endfor %}
       {{ content }}
-      <hr />
+       <hr />
       <footer role="contentinfo">
-        {% if page.share != false %}{% include _social-share.html %}{% endif %}
+        <div class="article-author-bottom">
+          {% include _author-bio.html %}
+        </div>
+        {% if page.share != false %}
+        {% include _social-share.html %}
+        {% endif %}     
+        <p>Posted under <a class="catag" onmouseover="this.style.backgroundColor='{{ category.color }}',this.style.color='white'" onmouseout="this.style.backgroundColor='white',this.style.color='#343434'" href="{{ site.url }}/{{ category.slug }}/">{{ category.name }}</a>with <i class="fa fa-tags"></i>&nbsp;:&nbsp;&nbsp;&nbsp;{% for tag in page.tags %}<a class="catag" onmouseover="this.style.backgroundColor='#343434',this.style.color='white'" onmouseout="this.style.backgroundColor='white',this.style.color='#343434'" href="{{ site.url }}/tag/{{ tag }}/">{{ tag }}</a>
+        {% endfor %}
+        <br/>
+        </p>
       </footer>
     </div><!-- /.article-wrap -->
+
   {% if site.owner.disqus-shortname and page.comments == true %}
-    <section id="disqus_thread"></section><!-- /#disqus_thread -->
+    <div id="disqus_thread"></div>
   {% endif %}
   </article>
 </div><!-- /#main -->
 
 <div class="footer-wrap">
-  {% if site.related_posts.size > 0 %}
   <div class="related-articles">
   <h4>You might also enjoy <small class="pull-right">(<a href="{{ site.url }}/articles/">View all posts</a>)</small></h4>
     <ul>
@@ -67,13 +81,11 @@
     </ul>
     <hr />
   </div><!-- /.related-articles -->
-  {% endif %}
   <footer>
     {% include _footer.html %}
   </footer>
 </div><!-- /.footer-wrap -->
 
-{% include _scripts.html %}
-
+{% include _scripts.html %}         
 </body>
 </html>
