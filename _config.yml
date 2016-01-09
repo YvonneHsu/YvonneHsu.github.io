@@ -1,7 +1,7 @@
 # Site wide configuration
 
 title:            维港的烟火
-tagline:          饼干的饼干
+tagline:          Yvonne' s Blog
 description:      "迷失的人迷失了 相逢的人會再相逢"
 locale:           en_US
 url:              
@@ -23,6 +23,12 @@ kramdown:
   toc_levels:     1..6
   enable_coderay: false
 
+  coderay:
+    coderay_line_numbers: 
+    coderay_line_numbers_start: 1
+    coderay_tab_width: 4
+    coderay_bold_every: 10
+    coderay_css:  class
 
 # Site owner
 owner:
@@ -59,8 +65,6 @@ owner:
 
 # Defaults for posts
 
-disqus-shortname: yvonne_hsu
-
 defaults:
   -
     scope: 
@@ -73,5 +77,16 @@ defaults:
         credit:  Azeril
         creditlink: http://azeril.me
 
-include: [".htaccess"]
-exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "less", "*.sublime-project", "*.sublime-workspace", "test", "spec", "Gruntfile.js", "package.json", "node_modules", "Gemfile", "Gemfile.lock", "LICENSE", "README.md"]
+# Comments 
+comments:
+  provider:      disqus
+  duoshuo:
+    short_name:  yvonne
+  disqus:
+    short_name:  yvonne_hsu
+
+# http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone:        Asia/Beijing
+
+include:         [".htaccess"]
+exclude:         ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "less", "*.sublime-project", "*.sublime-workspace", "test", "spec", "Gruntfile.js", "package.json", "node_modules", "Gemfile", "Gemfile.lock", "LICENSE", "README.md"]
