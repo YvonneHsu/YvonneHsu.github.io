@@ -1,59 +1,71 @@
 # Site wide configuration
 
-title:            维港的烟火
-locale:           en_US
-#url:              http://localhost:4000
-#url:              http://eddiekollar.github.io
-url:              http://paw.cat 
+title: 维港的烟火
+locale: en_US
+url: http://paw.cat 
 
 # Jekyll configuration
 
-permalink:   /:categories/:title/
+permalink:   pretty
 markdown:    kramdown
-highlighter: pygments
 sass:
   sass_dir: _sass
   style: compressed
 
 kramdown:
+  input:          GFM
   auto_ids: true
   footnote_nr: 1
   entity_output: as_char
   toc_levels: 1..6
   enable_coderay: false
 
-
 # Site owner
 owner:
   name: Yvonne
-  avatar: monkey-thinking.png
-  bio: "I'm a big nerd. Wanno taco 'bout it?"
-  email: eddie.kollar@gmail.com
-  disqus-shortname: eddiekollar
-  twitter: eddiekollar
-  facebook: #username
+  avatar: Yvonne.jpg
+  email: miha.rekar@gmail.com
+  favicon:        favicon.ico
+  bio:            "握在手里的才是自己的"
+  email:          joyce02@163.com
+  web:            http://paw.cat
+
+# Defaults for posts
+defaults:
+  -
+    scope: 
+      path:      ""
+      type:      "posts"
+    values:
+      layout:    "post"
+      image:
+        feature: stairs2.jpg
+        credit:  Azeril
+        creditlink: http://azeril.me
+
+# Social Setting
+
+  disqus-shortname: miharekar
+  twitter:  
+  facebook: rekar
   google:
-    plus: eddiekollar
-    analytics: 
-    verify: 
-    ad-client: 
-    ad-slot: 
-  bing-verify: 
-  github: eddiekollar
-  stackoverflow: #http://stackoverflow.com/users/123456/username
-  linkedin: #username
-  xing: #username
-  instagram: eddiekollar
-  lastfm: #username
-  tumblr: #username
-  pinterest: #username
-  foursquare: #username
-  steam: #username
-  dribbble: #username
-  youtube: #username
-  soundcloud: eddiekollar
-  weibo: #username
-  flickr: #username
+    analytics: UA-356422-1
+    verify:
+    ad-client:
+    ad-slot:
+  bing-verify:
+  github: Yvonnehsu
+  stackoverflow:  
+  linkedin:  
+  instagram: 
+  foursquare:  
+  youtube:  
+  soundcloud:  
+  speakerdeck:  
+
+# http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone:         Asia/Beijing
+future:           true
 
 include: [".htaccess"]
-exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "less", "*.sublime-project", "*.sublime-workspace", "test", "spec", "Gruntfile.js", "package.json", "node_modules", "Gemfile", "Gemfile.lock", "LICENSE", "README.md"]
+exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "less", "test", "spec", "Gruntfile.js", "package.json", "node_modules", "Gemfile", "Gemfile.lock", "LICENSE", "README.md"]

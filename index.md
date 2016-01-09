@@ -1,7 +1,9 @@
 ---
 layout: home
-excerpt: "All that is gold does not glitter, Not all those who wander are lost"
-tags: [Jekyll, theme, responsive, blog]
+excerpt: Ruby Developer. Event Photographer. Wannabe runner. RubySlovenia organizer. Special. Not necessarily in that order.
+tags: [miha, rekar, ruby, develper, php, event, photography]
 image:
-  feature: the_pondering.jpg
+  feature: features/ultra-fire.jpg
+  credit: Miha Rekar - Fire @ Ultra 2014
+  creditlink: http://mr.si/
 ---

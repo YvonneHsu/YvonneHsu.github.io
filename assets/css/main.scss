@@ -13,10 +13,6 @@ sitemap: false
 
 // Partials
 @import "variables";
-
-@import "vendor/bourbon/bourbon";
-@import "vendor/neat/neat";
-
 @import "grid";
 @import "mixins";
 @import "normalize";
@@ -27,7 +23,6 @@ sitemap: false
 @import "elements";
 @import "forms";
 @import "page";
-@import "tiles";
 @import "vendor/font-awesome/font-awesome";
 @import "vendor/magnific-popup/magnific-popup";
 //@import "vendor/google/fonts";

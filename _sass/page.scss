@@ -8,7 +8,7 @@ body {
 	color: $text-color;
 }
 
-/* 
+/*
    Header
    ========================================================================== */
 
@@ -79,7 +79,7 @@ body {
 			white-space: nowrap;
 			border-bottom: 0 solid transparent;
 		}
-		a { 
+		a {
 			display: block;
 			padding: 10px 0;
 			decoration: none;
@@ -165,11 +165,11 @@ $button-size: 1.5rem;
 	}
 }
 // Style the toggle menu link and hide it
-.nav .navtoogle {	
+.nav .navtoogle {
 	@include font-rem(18);
 	font-weight: normal;
 	background-color: $black;
-	color: $white;	
+	color: $white;
 	border: none;
 	cursor: pointer;
 	@media #{$small} {
@@ -206,7 +206,7 @@ $button-size: 1.5rem;
 	}
 }
 // Displaying the menu when the user has clicked on the button
-.js .nav .active + ul {		
+.js .nav .active + ul {
 	max-height: 30em;
 	overflow: hidden;
 	-webkit-transition: max-height .4s;
@@ -242,13 +242,6 @@ $button-size: 1.5rem;
 			@include grid(12,4.5);
 		}
 	}
-	.archive-wrap {
-			margin: 0 2em;
-			@include fill-parent;
-			.content {
-				@include fill-parent;
-			}
-		}
 }
 
 /* Index listing specific styling */
@@ -279,6 +272,9 @@ $button-size: 1.5rem;
 			&.link-post {
 				margin-bottom: 0px + $doc-line-height;
 				margin-bottom: 0rem + ($doc-line-height / $doc-font-size);
+			}
+			i {
+				font-size: 0.8em;
 			}
 		}
 		p {
@@ -358,7 +354,7 @@ $button-size: 1.5rem;
 }
 
 /* Default social media links in author sidebar */
-.author-social {
+.author-links {
   display: block;
   margin-bottom: 5px;
   @include font-rem(14);
@@ -379,19 +375,41 @@ $button-size: 1.5rem;
 
 /* Author sidebar */
 .article-author-side {
-	display: none;
+	@include container;
+	@include grid(12,10);
+	@include prefix(12,1);
+	@include suffix(12,1);
+	margin-bottom: 1em;
+
 	.bio-photo {
-		max-width: 110px;
+		float: right;
+		max-width: 130px;
 		@include rounded(150px);
+	}
+
+	.author-links {
+		display: block;
+		margin-right: 1em;
+		.fa {
+			margin-right: 0;
+		}
+	}
+
+	h3, p {
+		display: none;
 	}
 	@media #{$small} {
 		display: block;
 		@include grid(12,2);
 		@include prefix(12,0.5);
 		@include suffix(12,0.5);
+		.bio-photo {
+			max-width: 110px;
+			float: none;
+		}
 		h3,
 		p,
-		.author-social {
+		.author-links {
 			display: block;
 			max-width: 125px;
 		}
@@ -402,7 +420,7 @@ $button-size: 1.5rem;
 		p {
 			margin-bottom: 20px;
 		}
-		.author-social {
+		.author-links {
 			margin-bottom: 5px;
 		}
 	}
@@ -410,7 +428,7 @@ $button-size: 1.5rem;
 		h3,
 		.bio-photo,
 		p,
-		.author-social {
+		.author-links {
 			max-width: 150px;
 		}
 	}
@@ -432,7 +450,7 @@ $button-size: 1.5rem;
 		max-width: 100px;
 		@include rounded(150px);
 	}
-	.author-social {
+	.author-links {
 		display: inline-block;
 		margin-right: 10px;
 	}
@@ -440,7 +458,7 @@ $button-size: 1.5rem;
 		h3,
 		.bio-photo,
 		p,
-		.author-social {
+		.author-links {
 			max-width: 150px;
 		}
 	}
@@ -555,7 +573,7 @@ $button-size: 1.5rem;
 	margin: 1em 0;
 	li {
 		display: inline;
-		a { 
+		a {
 			border-bottom: 0 solid transparent;
 			&:hover {
 				border-bottom: 0 solid transparent;
@@ -581,7 +599,7 @@ $button-size: 1.5rem;
   li {
   	display: inline-block;
   }
-  $social: 
+  $social:
   (facebook, $facebook-color),
   (flickr, $flickr-color),
   (foursquare, $foursquare-color),
@@ -597,7 +615,7 @@ $button-size: 1.5rem;
   @each $socialnetwork, $color in $social {
     .#{$socialnetwork} {
       background: $color;
-    }    
+    }
   }
   a {
 	  display: block;
@@ -641,7 +659,7 @@ $button-size: 1.5rem;
 	h4,
 	h5,
 	h6,
-	span { 
+	span {
 		@include font-rem(14);
 	}
 	footer {
@@ -686,7 +704,7 @@ $button-size: 1.5rem;
 	}
 }
 
-/* 
+/*
    Browser upgrade alert
    ========================================================================== */
 
@@ -706,7 +724,7 @@ $button-size: 1.5rem;
 		}
 	}
 }
-/* 
+/*
    Google search form
    ========================================================================== */
 
