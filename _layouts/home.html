@@ -4,7 +4,7 @@
 <!--[if (IE 8)&!(IEMobile)]><html class="no-js lt-ie9" lang="en"><![endif]-->
 <!--[if gt IE 8]><!--> <html class="no-js" lang="en"><!--<![endif]-->
 <head>
-{% include _head.html %}
+  {% include _head.html %}
 </head>
 
 <body class="home">
@@ -19,11 +19,11 @@
     {% if page.image.feature contains 'http' %}
       "{{ page.image.feature }}"
     {% else %}
-      "/images/{{ page.image.feature }}"
+      "{{ site.url }}/images/{{ page.image.feature }}"
     {% endif %}
   alt="{{ page.title }} feature image">
   {% if page.image.credit %}
-    <span class="image-credit">Photo: <a href="{{ page.image.creditlink }}">{{ page.image.credit }}</a></span>
+    <span class="image-credit">Photo Credit: <a href="{{ page.image.creditlink }}">{{ page.image.credit }}</a></span>
   {% endif %}
   </div><!-- /.image-wrap -->
 {% endif %}
@@ -33,19 +33,15 @@
     {% include _author-bio.html %}
   </div>
   <div id="index">
-    <h3><a href="{{ site.url}}/posts/">Recent Content</a></h3>
-    {% for post in site.posts limit:10 %}
+    <h3><a href="{{ site.url}}/posts/">Last Posts</a></h3>
+    {% for post in site.posts limit:5 %}
     <article>
-      <h2>
-        {% if post.link %}
-        <a href="{{ post.link }}" target="_blank" title="{{ post.title }}"><i class="fa fa-link"></i>
-        {% elsif post.category == 'talks' %}
-        <i class="fa fa-video-camera" title="Talks"></i>
-        {% elsif post.category == 'posts' %}
-        <i class="fa fa-align-left" title="Posts"></i>
-        {% endif %}
-        <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></h2>
-      <p>{{ post.excerpt | strip_html | truncate: 160 }}</p>
+      {% if post.link %}
+        <h2 class="link-post"><a href="{{ site.url }}{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a> <a href="{{ post.link }}" target="_blank" title="{{ post.title }}"><i class="fa fa-link"></i></h2>
+      {% else %}
+        <h2><a href="{{ site.url }}{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></h2>
+        <p>{{ post.excerpt | strip_html | truncate: 160 }}</p>
+      {% endif %}
     </article>
     {% endfor %}
   </div><!-- /#index -->

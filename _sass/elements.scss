@@ -17,7 +17,7 @@ hr {
    ========================================================================== */
 
 figure {
-	margin-bottom: $indent-var!important;
+	margin-bottom: $indent-var;
 }
 
 article img {
@@ -55,21 +55,6 @@ svg:not(:root) {
 	@media #{$micro} {
 		img {
 			@include grid(12,4);
-		}
-		figcaption {
-			@include grid(12,12);
-		}
-	}
-}
-
-/* 4 images of equal dimensions in a row */
-
-.forth {
-	@include container;
-	@include clearfix;
-	@media #{$micro} {
-		img {
-			@include grid(12,3);
 		}
 		figcaption {
 			@include grid(12,12);
@@ -178,14 +163,4 @@ svg:not(:root) {
 	border: 1px solid #e3e3e3;
 	@include rounded(4px);
 	@include box-shadow(inset 0 1px 1px rgba(0, 0, 0, 0.05));
-}
-
-/*
-   Other
-   ========================================================================== */
-
-.reversefootnote {
-	sup {
-		display: none;
-	}
 }

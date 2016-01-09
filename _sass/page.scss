@@ -94,7 +94,7 @@ body {
 }
 
 /* Animated lines for mobile nav button */
-$button-size: 1.5rem;
+$button-size: 1rem;
 @mixin navicon-line() {
 	display: inline-block;
 	width: $button-size;
@@ -165,7 +165,7 @@ $button-size: 1.5rem;
 	}
 }
 // Style the toggle menu link and hide it
-.nav .navtoogle {
+.nav .navtoggle {
 	@include font-rem(18);
 	font-weight: normal;
 	background-color: $black;
@@ -180,7 +180,7 @@ $button-size: 1.5rem;
 	border: none;
 	background: none;
 }
-.navtoogle i {
+.navtoggle i {
 	z-index:-1;
 }
 .icon-menu {
@@ -273,9 +273,6 @@ $button-size: 1.5rem;
 				margin-bottom: 0px + $doc-line-height;
 				margin-bottom: 0rem + ($doc-line-height / $doc-font-size);
 			}
-			i {
-				font-size: 0.8em;
-			}
 		}
 		p {
 			@include font-rem(14);
@@ -354,7 +351,7 @@ $button-size: 1.5rem;
 }
 
 /* Default social media links in author sidebar */
-.author-links {
+.author-social {
   display: block;
   margin-bottom: 5px;
   @include font-rem(14);
@@ -375,41 +372,19 @@ $button-size: 1.5rem;
 
 /* Author sidebar */
 .article-author-side {
-	@include container;
-	@include grid(12,10);
-	@include prefix(12,1);
-	@include suffix(12,1);
-	margin-bottom: 1em;
-
+	display: none;
 	.bio-photo {
-		float: right;
-		max-width: 130px;
+		max-width: 110px;
 		@include rounded(150px);
-	}
-
-	.author-links {
-		display: block;
-		margin-right: 1em;
-		.fa {
-			margin-right: 0;
-		}
-	}
-
-	h3, p {
-		display: none;
 	}
 	@media #{$small} {
 		display: block;
 		@include grid(12,2);
 		@include prefix(12,0.5);
 		@include suffix(12,0.5);
-		.bio-photo {
-			max-width: 110px;
-			float: none;
-		}
 		h3,
 		p,
-		.author-links {
+		.author-social {
 			display: block;
 			max-width: 125px;
 		}
@@ -420,7 +395,7 @@ $button-size: 1.5rem;
 		p {
 			margin-bottom: 20px;
 		}
-		.author-links {
+		.author-social {
 			margin-bottom: 5px;
 		}
 	}
@@ -428,7 +403,7 @@ $button-size: 1.5rem;
 		h3,
 		.bio-photo,
 		p,
-		.author-links {
+		.author-social {
 			max-width: 150px;
 		}
 	}
@@ -450,7 +425,7 @@ $button-size: 1.5rem;
 		max-width: 100px;
 		@include rounded(150px);
 	}
-	.author-links {
+	.author-social {
 		display: inline-block;
 		margin-right: 10px;
 	}
@@ -458,7 +433,7 @@ $button-size: 1.5rem;
 		h3,
 		.bio-photo,
 		p,
-		.author-links {
+		.author-social {
 			max-width: 150px;
 		}
 	}
@@ -468,6 +443,8 @@ $button-size: 1.5rem;
 .article-wrap {
 	// Dotted line underlines for links
 	p > a,
+	p > em > a,
+	p > strong > a,
 	li > a {
 		text-decoration: underline;
 	}
