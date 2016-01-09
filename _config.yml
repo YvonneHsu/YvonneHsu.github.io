@@ -1,6 +1,8 @@
 # Site wide configuration
 
 title:            维港的烟火
+tagline:          饼干的饼干
+description:      "迷失的人迷失了 相逢的人會再相逢"
 locale:           en_US
 url:              
 
@@ -14,6 +16,7 @@ sass:
   style: compressed
 
 kramdown:
+  input:          GFM
   auto_ids: true
   footnote_nr: 1
   entity_output: as_char
@@ -23,21 +26,26 @@ kramdown:
 
 # Site owner
 owner:
-  name: 饼干
-  avatar: manu.jpg
-  bio: "finds delight in sharing happiness.. hates hatredness.. loves and supports freedom, motivating changes and righteous movements.. fan of free and open-source software movements.. has strong faith in the power of fellowship.. not a perfect human being.. but doing my best.. :)"
-  email: manu.27993@gmail.com
+  name:           Yvonne
+  authors:        Yvonne
+  avatar:         Yvonne.jpg
+  favicon:        favicon.ico
+  bio:            "握在手里的才是自己的"
+  email:          joyce02@163.com
+  web:            http://paw.cat
+
   disqus-shortname: thetechyuga
-  twitter: manu27993
-  facebook: manu27993
+  github:         YvonneHsu
+  weibo:          icy1991
+  twitter: 
+  facebook: 
   google:
-    plus: ManuMathew0
+    plus:  
     analytics: UA-58734190-1
     verify: I2ootfUAnnCI9vzmsSQvG1VVUH8wQYQaGSsANNa9v-g
     ad-client: 
     ad-slot: 
-  bing-verify: 26A8ACD54BA466D7555B8F6F6D08B779
-  github: manu-27993
+  bing-verify: 
   stackoverflow: #http://stackoverflow.com/users/123456/username
   linkedin: #username
   instagram: #username
@@ -50,6 +58,19 @@ owner:
   youtube: #username
   soundcloud: #username
   weibo: #username
+
+# Defaults for posts
+defaults:
+  -
+    scope: 
+      path:      ""
+      type:      "posts"
+    values:
+      layout:    "post"
+      image:
+        feature: stairs2.jpg
+        credit:  Azeril
+        creditlink: http://azeril.me
 
 include: [".htaccess"]
 exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "less", "*.sublime-project", "*.sublime-workspace", "test", "spec", "Gruntfile.js", "package.json", "node_modules", "Gemfile", "Gemfile.lock", "LICENSE", "README.md"]

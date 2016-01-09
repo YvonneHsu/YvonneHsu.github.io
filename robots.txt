@@ -1,6 +1,0 @@
-User-agent: *
-Disallow: /404.html
-Disallow: /CNAME
-Disallow: /BingSiteAuth.xml
-
-Sitemap: http://techyu.ga/sitemap.xml

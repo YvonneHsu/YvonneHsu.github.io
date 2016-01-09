@@ -2,7 +2,7 @@
 layout: page  
 permalink: /Tags/  
 title: Tags  
-tagline: 博客标签库  
+excerpt: 博客标签库  
 image:  
   feature: street.jpg  
   credit: Azeril  
