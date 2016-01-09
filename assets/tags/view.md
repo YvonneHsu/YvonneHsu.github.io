@@ -6,5 +6,5 @@ image:
   feature: island.jpg  
   credit: Azeril  
   creditlink: http://azeril.me  
-permalink: tag/think/  
+permalink: tag/view/  
 ---
