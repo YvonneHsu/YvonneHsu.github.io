@@ -5,14 +5,6 @@ excerpt: "Example and code for using link posts."
 tags: [ ]
 ---
 
-##  博客搭建 Blog Building
-
-博客搭建的方法与过程，既然现在博客已搭建完成，就不用管啦。只要知道，这个博客是基于 GitHub 平台，由 Jekyll 博客引擎生成，用 Git 工具管理和发布，使用 Markdown 语法书写，并运用到很多的插件（包括代码高亮、分享、评论、分页等插件）来完善就好。
-
-感兴趣可以看瞧瞧这里，看一下生鸡蛋的母鸡是怎么个样子：
-
-* [Jekyll 博客主题精选 - Microdust](http://azeril.me/blog/Selected-Collection-of-Jekyll-Themes.html) 
-* [打造你的 GitHub Pages 专属博客（小白教程） - Microdust](http://azeril.me/blog/Build-Your-First-GitHub-Pages-Blog.html)
 
 
 ## Markdown 语法
@@ -88,6 +80,7 @@ cornelius_fiddlebone:
 ```
 
 To assign Billy Rick as an author for our post. You'd add the following YAML front matter to a post:
+
 
 ```
 {% highlight yaml %}

@@ -17,9 +17,19 @@ image:
 Hi~ 
 
 定制版的 Jekyll 博客迷你指南。嗯哼~
-
 希望透过一篇文章，可以将一些基本概念，以及使用博客的基本技能都掌握，而后就能开始自己动手尝试啦。
 
+##  博客搭建
+
+博客搭建的方法与过程，既然现在博客已搭建完成，就不用管啦。只要知道，这个博客是基于 GitHub 平台，由 Jekyll 博客引擎生成，用 Git 工具管理和发布，使用 Markdown 语法书写，并运用到很多的插件（包括代码高亮、分享、评论、分页等插件）来完善就好。
+
+感兴趣可以看瞧瞧这里，看一下生鸡蛋的母鸡是怎么个样子：
+
+* [Jekyll 博客主题精选 - Microdust](http://azeril.me/blog/Selected-Collection-of-Jekyll-Themes.html) 
+* [打造你的 GitHub Pages 专属博客（小白教程） - Microdust](http://azeril.me/blog/Build-Your-First-GitHub-Pages-Blog.html)
+
+### 博文发布途径
+ 
 在 Jekyll 博客（也就是这样的博客）发布一篇文章，简单说，通常可以通过 3 个途径：
 
 1. GitHub 网页版 ## 通过浏览器直接访问，在博客仓库添加新的博文文件即可。没什么学习成本，但网页版有时修改会繁琐一点。；
