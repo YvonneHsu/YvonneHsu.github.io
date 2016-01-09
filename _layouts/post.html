@@ -23,8 +23,7 @@
     {% endif %}
   alt="{{ page.title }} feature image">
   {% if page.image.credit %}
-    <span class="image-credit">Photo Credit: <a href="{{ page.image.creditlink }}">{{ page.image.credit }}</a><br/>
-    Posted under <a class="catag" onmouseover="this.style.backgroundColor='{{ category.color }}',this.style.color='white'" onmouseout="this.style.backgroundColor='white',this.style.color='#343434'" href="{{ site.url }}/{{ category.slug }}/">{{ category.name }}</a> with <i class="fa fa-tags"></i>&nbsp;:&nbsp;&nbsp;&nbsp;{% for tag in page.tags %}<a class="catag" onmouseover="this.style.backgroundColor='#343434',this.style.color='white'" onmouseout="this.style.backgroundColor='white',this.style.color='#343434'" href="{{ site.url }}/tag/{{ tag }}/">{{ tag }}</a></span>
+    <span class="image-credit">Photo Credit: <a href="{{ page.image.creditlink }}">{{ page.image.credit }}</a>
   {% endif %}
   </div><!-- /.image-wrap -->
 {% endif %}
@@ -41,7 +40,8 @@
         <h1><a href="{{ site.url }}{{ page.url }}" rel="bookmark" title="{{ page.title }}">{{ page.title }}</a></h1>
       {% endif %}
     </div>
-    <p class="byline">Published on <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%B %d, %Y" }}</time>{% if page.modified %} and last modified on <time datetime="{{ page.modified | date: "%Y-%m-%d" }}">{{ page.modified | date: "%B %d, %Y" }}</time>{% endif %}.</p><!--/ .headline-wrap -->
+    <p class="byline">Published on <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%B %d, %Y" }}</time>{% if page.modified %} and last modified on <time datetime="{{ page.modified | date: "%Y-%m-%d" }}">{{ page.modified | date: "%B %d, %Y" }}</time>{% endif %}.</p>
+    Posted under <a class="catag" onmouseover="this.style.backgroundColor='{{ category.color }}',this.style.color='white'" onmouseout="this.style.backgroundColor='white',this.style.color='#343434'" href="{{ site.url }}/{{ category.slug }}/">{{ category.name }}</a> with <i class="fa fa-tags"></i>&nbsp;:&nbsp;&nbsp;&nbsp;{% for tag in page.tags %}<a class="catag" onmouseover="this.style.backgroundColor='#343434',this.style.color='white'" onmouseout="this.style.backgroundColor='white',this.style.color='#343434'" href="{{ site.url }}/tag/{{ tag }}/">{{ tag }}</a></span><!--/ .headline-wrap -->
     <div class="article-wrap">
       {{ content }}
       <hr />
