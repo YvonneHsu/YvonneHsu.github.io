@@ -3,6 +3,6 @@ layout: post-by-category
 title: 'Articles by category: Software'
 category: software
 image:
-   feature: software.jpg
+   feature: pigeons.jpg
 permalink: software/
 ---

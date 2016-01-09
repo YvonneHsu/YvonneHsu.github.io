@@ -10,7 +10,7 @@ tags:
 comments: true
 share: false
 image: 
-  feature: ty.jpg
+  feature: deer.jpg
 published: true
 ---
 
