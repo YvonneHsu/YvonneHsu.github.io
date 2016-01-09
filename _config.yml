@@ -75,14 +75,8 @@ defaults:
         creditlink: http://azeril.me
 
 # Comments 
-comments:
-  provider:      disqus
-  duoshuo:
-    short_name:  yvonne
-  disqus:
-    short_name:  pawcat
 
-# disqus-shortname: pawcat
+disqus-shortname: pawcat
 
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 timezone:        Asia/Beijing
