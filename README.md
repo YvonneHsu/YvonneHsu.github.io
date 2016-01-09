@@ -1,5 +1,6 @@
-# README
+# Powers my personal blog
+It's a modified theme based off of Minimal Mistakes
 
-My website/blog
+# Minimal Mistakes
 
-Using **[Minimal Mistakes](http://mmistakes.github.io/minimal-mistakes)**,  a two column responsive Jekyll theme perfect for powering your GitHub hosted blog.
+**[Minimal Mistakes](http://mmistakes.github.io/minimal-mistakes)** is a two column responsive Jekyll theme perfect for powering your GitHub hosted blog.

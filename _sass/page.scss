@@ -8,7 +8,7 @@ body {
 	color: $text-color;
 }
 
-/*
+/* 
    Header
    ========================================================================== */
 
@@ -79,7 +79,7 @@ body {
 			white-space: nowrap;
 			border-bottom: 0 solid transparent;
 		}
-		a {
+		a { 
 			display: block;
 			padding: 10px 0;
 			decoration: none;
@@ -94,7 +94,7 @@ body {
 }
 
 /* Animated lines for mobile nav button */
-$button-size: 1rem;
+$button-size: 1.5rem;
 @mixin navicon-line() {
 	display: inline-block;
 	width: $button-size;
@@ -165,11 +165,11 @@ $button-size: 1rem;
 	}
 }
 // Style the toggle menu link and hide it
-.nav .navtoggle {
+.nav .navtoogle {	
 	@include font-rem(18);
 	font-weight: normal;
 	background-color: $black;
-	color: $white;
+	color: $white;	
 	border: none;
 	cursor: pointer;
 	@media #{$small} {
@@ -180,7 +180,7 @@ $button-size: 1rem;
 	border: none;
 	background: none;
 }
-.navtoggle i {
+.navtoogle i {
 	z-index:-1;
 }
 .icon-menu {
@@ -206,7 +206,7 @@ $button-size: 1rem;
 	}
 }
 // Displaying the menu when the user has clicked on the button
-.js .nav .active + ul {
+.js .nav .active + ul {		
 	max-height: 30em;
 	overflow: hidden;
 	-webkit-transition: max-height .4s;
@@ -242,6 +242,13 @@ $button-size: 1rem;
 			@include grid(12,4.5);
 		}
 	}
+	.archive-wrap {
+			margin: 0 2em;
+			@include fill-parent;
+			.content {
+				@include fill-parent;
+			}
+		}
 }
 
 /* Index listing specific styling */
@@ -443,8 +450,6 @@ $button-size: 1rem;
 .article-wrap {
 	// Dotted line underlines for links
 	p > a,
-	p > em > a,
-	p > strong > a,
 	li > a {
 		text-decoration: underline;
 	}
@@ -550,7 +555,7 @@ $button-size: 1rem;
 	margin: 1em 0;
 	li {
 		display: inline;
-		a {
+		a { 
 			border-bottom: 0 solid transparent;
 			&:hover {
 				border-bottom: 0 solid transparent;
@@ -576,7 +581,7 @@ $button-size: 1rem;
   li {
   	display: inline-block;
   }
-  $social:
+  $social: 
   (facebook, $facebook-color),
   (flickr, $flickr-color),
   (foursquare, $foursquare-color),
@@ -592,7 +597,7 @@ $button-size: 1rem;
   @each $socialnetwork, $color in $social {
     .#{$socialnetwork} {
       background: $color;
-    }
+    }    
   }
   a {
 	  display: block;
@@ -636,7 +641,7 @@ $button-size: 1rem;
 	h4,
 	h5,
 	h6,
-	span {
+	span { 
 		@include font-rem(14);
 	}
 	footer {
@@ -681,7 +686,7 @@ $button-size: 1rem;
 	}
 }
 
-/*
+/* 
    Browser upgrade alert
    ========================================================================== */
 
@@ -701,7 +706,7 @@ $button-size: 1rem;
 		}
 	}
 }
-/*
+/* 
    Google search form
    ========================================================================== */
 
