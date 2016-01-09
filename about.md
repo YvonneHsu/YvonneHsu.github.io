@@ -1,12 +1,13 @@
 ---
-layout: page
-permalink: /About/ 
-title: About My Blog And Me
-tagline:   
-image:
+layout: page  
+permalink: /About/  
+title: About  
+tagline: My Blog And Me  
+share: false   
+image:  
   feature: blue.jpg  
-  credit:  
-  creditlink:  
+  credit: Azeril
+  creditlink: http://azeril.me
 ---
 
 ![](http://dreamofbook.qiniudn.com/YvonneCookieYesterdayTime.jpg)
