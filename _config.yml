@@ -42,23 +42,23 @@ owner:
 
   github:         YvonneHsu
   weibo:          icy1991
-  twitter: 
-  facebook: 
-  google:
-    plus:  
-    analytics:    UA-58734190-1
-    verify:       I2ootfUAnnCI9vzmsSQvG1VVUH8wQYQaGSsANNa9v-g
-    ad-client: 
-    ad-slot: 
-  bing-verify: 
-  stackoverflow: #http://stackoverflow.com/users/123456/username
-  linkedin: #username
-  instagram: #username
-  tumblr: #username
-  pinterest: #username
-  dribbble: #username
-  youtube: #username
-  soundcloud: #username
+  twitter:        #username
+  facebook:       #username
+  google:         #username
+    plus:         #username
+    analytics:    #
+    verify:       #
+    ad-client:    #
+    ad-slot:      #
+  bing-verify:    #
+  stackoverflow:  #username
+  linkedin:       #username
+  instagram:      #username
+  tumblr:         #username
+  pinterest:      #username
+  dribbble:       #username
+  youtube:        #username
+  soundcloud:     #username
 
 # Defaults for posts
 
@@ -76,7 +76,7 @@ defaults:
 
 # Comments 
 
-disqus-shortname: pawcat
+  disqus-shortname: pawcat
 
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 timezone:        Asia/Beijing
