@@ -1,12 +1,13 @@
 ---
-layout: page
+layout: page  
 permalink: /Wind/  
-title: Catch The Wind
-tagline: 点滴思绪
-image:
-  feature: lighttower.jpg  
-  credit: Azeril
-  creditlink: http://azeril.me
+title: Catch The Wind  
+tagline: 点滴思绪  
+share: false  
+image:  
+  feature: lighttower.jpg   
+  credit: Azeril  
+  creditlink: http://azeril.me  
 ---
 
 > 我記得以前 我設想過自己的生活將會是什麽樣子 我自己會是什麽樣子 我想象自己擁有所有這些品質 強大 積極 能讓人出類拔萃的品質 但當歲月流逝 這些品質我差不多一個都沒得到 當我當初面對的各種可能和我可能成為的各色人等…也一年一年地減少……最後終於只剩下一種……那就是現在的我……

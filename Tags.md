@@ -3,6 +3,7 @@ layout: page
 permalink: /Tags/  
 title: Tags  
 excerpt: 博客标签库  
+share: false
 image:  
   feature: street.jpg  
   credit: Azeril  
