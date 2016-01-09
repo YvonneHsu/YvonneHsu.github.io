@@ -2,7 +2,7 @@
 layout: post
 title: 圣诞忆旧集
 excerpt: "透着浓浓圣诞气息，回忆童年过往的作品。"
-tags: [read, life, ]
+tags: [read, ]
 comments: true
 image:
   feature: street.jpg

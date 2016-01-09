@@ -2,7 +2,7 @@
 layout: post
 title: 关于「抢盐」
 excerpt: "这一切的恐慌，都来自于不信任。"
-tags: [think, life, ]
+tags: [life, ]
 comments: true
 image:
   feature: mountains2.jpg

@@ -2,7 +2,7 @@
 layout: post
 title: 这些人，那些事
 excerpt: "一个个的小故事，看见别人的人生。"
-tags: [read, life, ]
+tags: [read, ]
 comments: true
 image:
   feature: waves.jpg

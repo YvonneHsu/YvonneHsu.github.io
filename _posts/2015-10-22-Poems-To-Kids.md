@@ -2,7 +2,7 @@
 layout: post
 title: 给孩子的诗
 excerpt: "这本可以留着给小朋友当睡前读本的小诗集"
-tags: [read, life, ]
+tags: [read, ]
 comments: true
 image:
   feature: street.jpg
