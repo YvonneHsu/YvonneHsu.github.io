@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 常识
-excerpt: "一只猫咪和一座图书馆的故事。"
+excerpt: "一番回顾，一番思考。"
 tags: [read, ]
 comments: true
 image:
