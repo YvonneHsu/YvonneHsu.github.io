@@ -8,19 +8,19 @@ url:
 
 # Jekyll configuration
 
-permalink:   /:categories/:title/
-markdown:    kramdown
-highlighter: pygments
+permalink:        /:categories/:title/
+markdown:         kramdown
+highlighter:      pygments
 sass:
-  sass_dir: _sass
-  style: compressed
+  sass_dir:       _sass
+  style:          compressed
 
 kramdown:
   input:          GFM
-  auto_ids: true
-  footnote_nr: 1
-  entity_output: as_char
-  toc_levels: 1..6
+  auto_ids:       true
+  footnote_nr:    1
+  entity_output:  as_char
+  toc_levels:     1..6
   enable_coderay: false
 
 
@@ -34,15 +34,14 @@ owner:
   email:          joyce02@163.com
   web:            http://paw.cat
 
-  disqus-shortname: thetechyuga
   github:         YvonneHsu
   weibo:          icy1991
   twitter: 
   facebook: 
   google:
     plus:  
-    analytics: UA-58734190-1
-    verify: I2ootfUAnnCI9vzmsSQvG1VVUH8wQYQaGSsANNa9v-g
+    analytics:    UA-58734190-1
+    verify:       I2ootfUAnnCI9vzmsSQvG1VVUH8wQYQaGSsANNa9v-g
     ad-client: 
     ad-slot: 
   bing-verify: 
@@ -57,9 +56,11 @@ owner:
   dribbble: #username
   youtube: #username
   soundcloud: #username
-  weibo: #username
 
 # Defaults for posts
+
+disqus-shortname: yvonne_hsu
+
 defaults:
   -
     scope: 
