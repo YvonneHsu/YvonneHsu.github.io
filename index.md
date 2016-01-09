@@ -1,7 +1,9 @@
 ---
 layout: home
-excerpt: "Much needed articles for everyone updated regularly"
-tags: [HowTo,Reviews,Software,Programming]
+excerpt: "一封给过去与未来的情书"
+tags: [Blog, ]
 image:
-  feature: ty.jpg
+  feature: deer.jpg
+  credit: Azeril
+  creditlink: http://azeril.me/
 ---
