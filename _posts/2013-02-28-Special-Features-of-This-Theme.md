@@ -5,8 +5,6 @@ excerpt: "Example and code for using link posts."
 tags: [ ]
 ---
 
-
-
 ## Markdown 语法
 
 写作 Jekyll 博客使用的主要是两种语法：
