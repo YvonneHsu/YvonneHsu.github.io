@@ -42,6 +42,10 @@
         <h1><a href="{{ site.url }}{{ page.url }}" rel="bookmark" title="{{ page.title }}">{{ page.title }}</a></h1>
       {% endif %}
     </div><!--/ .headline-wrap -->
+        <p class="byline"><strong>{{ page.title }}</strong> was published on <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%B %d, %Y" }}</time>{% if page.modified %} and last modified on <time datetime="{{ page.modified | date: "%Y-%m-%d" }}">{{ page.modified | date: "%B %d, %Y" }}</time>{% endif %}.<br/>
+        Posted under <a class="catag" onmouseover="this.style.backgroundColor='{{ category.color }}',this.style.color='white'" onmouseout="this.style.backgroundColor='white',this.style.color='#343434'" href="{{ site.url }}/{{ category.slug }}/">{{ category.name }}</a> with <i class="fa fa-tags"></i>&nbsp;:&nbsp;&nbsp;&nbsp;{% for tag in page.tags %}<a class="catag" onmouseover="this.style.backgroundColor='#343434',this.style.color='white'" onmouseout="this.style.backgroundColor='white',this.style.color='#343434'" href="{{ site.url }}/tag/{{ tag }}/">{{ tag }}</a>
+        <br/>
+        </p>
     <div class="article-wrap">
       {% for site_category in site.data.categories %}
         {% if site_category.slug == page.category %}
@@ -57,11 +61,6 @@
         {% if page.share != false %}
         {% include _social-share.html %}
         {% endif %}     
-        <p class="byline"><strong>{{ page.title }}</strong> was published on <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%B %d, %Y" }}</time>{% if page.modified %} and last modified on <time datetime="{{ page.modified | date: "%Y-%m-%d" }}">{{ page.modified | date: "%B %d, %Y" }}</time>{% endif %}.<br/>
-        Posted under <a class="catag" onmouseover="this.style.backgroundColor='{{ category.color }}',this.style.color='white'" onmouseout="this.style.backgroundColor='white',this.style.color='#343434'" href="{{ site.url }}/{{ category.slug }}/">{{ category.name }}</a> with <i class="fa fa-tags"></i>&nbsp;:&nbsp;&nbsp;&nbsp;{% for tag in page.tags %}<a class="catag" onmouseover="this.style.backgroundColor='#343434',this.style.color='white'" onmouseout="this.style.backgroundColor='white',this.style.color='#343434'" href="{{ site.url }}/tag/{{ tag }}/">{{ tag }}</a>
-        {% endfor %}
-        <br/>
-        </p>
       </footer>
     </div><!-- /.article-wrap -->
 
