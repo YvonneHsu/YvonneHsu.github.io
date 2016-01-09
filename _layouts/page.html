@@ -29,16 +29,17 @@
 {% endif %}
 
 <div id="main" role="main">
-  <div class="article-author-side">
-    {% include _author-bio.html %}
+  <div class="catag-aside">
+    {% include _catag_section.html %}
   </div>
   <article class="page">
+    <br/>
     <h1>{{ page.title }}</h1>
     <div class="article-wrap">
       {{ content }}
       {% if page.share != false %}
-        <hr />
-        {% include _social-share.html %}
+      <hr />
+      {% include _social-share.html %}
       {% endif %}
     </div><!-- /.article-wrap -->
     {% if site.owner.disqus-shortname and page.comments == true %}
@@ -53,7 +54,7 @@
   </footer>
 </div><!-- /.footer-wrap -->
 
-{% include _scripts.html %}
+{% include _scripts.html %}          
 
 </body>
 </html>

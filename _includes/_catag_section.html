@@ -1,0 +1,13 @@
+<br/>
+<h3>Categories</h3>
+{% for category in site.data.categories %}
+<a class="catagbig" onmouseover="this.style.backgroundColor='{{ category.color }}',this.style.color='white'" onmouseout="this.style.backgroundColor='white',this.style.color='#343434'" href="{{ site.url }}/{{ category.slug }}/">{{ category.name }}</a><br/>
+{% endfor %}
+
+<br/>
+<h3>Tags</h3>
+{% for tag in site.tags %}
+<li style="font-size: {{ tag | last | size | times: 100 | divided_by: site.tags.size | plus: 70}}%; list-style-type:none; display:inline;">
+ <a class="catagbig" onmouseover="this.style.backgroundColor='#343434',this.style.color='white'" onmouseout="this.style.backgroundColor='white',this.style.color='#343434'" href="{{ site.url }}/tag/{{ tag | first }}">{{ tag | first }}</a>
+</li>
+{% endfor %}

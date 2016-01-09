@@ -1,0 +1,16 @@
+- slug: howto
+  name: HowTo
+  color: '#bf1e2d'
+
+- slug: programming
+  name: Programming
+  color: '#f1592a'
+
+- slug: review
+  name: Review
+  color: '#8cc63f'
+
+- slug: software
+  name: Software
+  color: '#25aae1'
+

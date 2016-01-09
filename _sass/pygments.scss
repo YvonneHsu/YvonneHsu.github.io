@@ -1,12 +1,8 @@
-/* ==========================================================================
-   Pygments.rb syntax highlighting
-   ========================================================================== */
-
 .highlight {
 	background-color: #efefef;
 	font-family: $code-font;
 	@include font(12);
-	color: #b85c34;
+	color: #333332;
 	margin-bottom: 1.5em;
 	@include rounded(4px);
 	pre {
