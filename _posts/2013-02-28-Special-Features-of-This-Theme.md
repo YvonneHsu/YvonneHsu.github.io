@@ -2,9 +2,7 @@
 layout: post
 title: 博客特性指南
 excerpt: "Example and code for using link posts."
-tags: [sample post, link post]
-link: http://mademistakes.com
-share: true
+tags: [ ]
 ---
 
 ##  博客搭建 Blog Building
