@@ -6,30 +6,6 @@ description:      "迷失的人迷失了 相逢的人會再相逢"
 locale:           en_US
 url:              
 
-# Jekyll configuration
-
-permalink:        /:categories/:title/
-markdown:         kramdown
-highlighter:      pygments
-sass:
-  sass_dir:       _sass
-  style:          compressed
-
-kramdown:
-  input:          GFM
-  auto_ids:       true
-  footnote_nr:    1
-  entity_output:  as_char
-  toc_levels:     1..6
-  enable_coderay: false
-
-  coderay:
-    coderay_line_numbers: 
-    coderay_line_numbers_start: 1
-    coderay_tab_width: 4
-    coderay_bold_every: 10
-    coderay_css:  class
-
 # Site owner
 owner:
   name:           Yvonne
@@ -59,6 +35,30 @@ owner:
   dribbble:       #username
   youtube:        #username
   soundcloud:     #username
+
+# Jekyll configuration
+
+permalink:        /:categories/:title/
+markdown:         kramdown
+highlighter:      pygments
+sass:
+  sass_dir:       _sass
+  style:          compressed
+
+kramdown:
+  input:          GFM
+  auto_ids:       true
+  footnote_nr:    1
+  entity_output:  as_char
+  toc_levels:     1..6
+  enable_coderay: false
+
+  coderay:
+    coderay_line_numbers: 
+    coderay_line_numbers_start: 1
+    coderay_tab_width: 4
+    coderay_bold_every: 10
+    coderay_css:  class
 
 # Defaults for posts
 
