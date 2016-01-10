@@ -174,7 +174,7 @@ Markdown 是一种轻量级标记语言，它允许人们使用易读易写的�
 
 扩展阅读：[Markdown 简明语法参考 - Microdust](http://azeril.me/blog/Markdown-Syntax.html)
 
-## 博客图文模式 A Post with Images
+## 博客图文模式
 
 在博文中并排显示多张图片的技巧。仅作了解：
 
