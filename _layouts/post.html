@@ -59,7 +59,7 @@
         {% if page.share != false %}
         {% include _social-share.html %}
         {% endif %}     
-        Posted under <a class="catag" onmouseover="this.style.backgroundColor='{{ category.color }}',this.style.color='white'" onmouseout="this.style.backgroundColor='white',this.style.color='#343434'" href="{{ site.url }}/{{ category.slug }}/">{{ category.name }}</a> with <i class="fa fa-tags"></i>&nbsp;:&nbsp;&nbsp;&nbsp;{% for tag in page.tags %}<a class="catag" onmouseover="this.style.backgroundColor='#343434',this.style.color='white'" onmouseout="this.style.backgroundColor='white',this.style.color='#343434'" href="{{ site.url }}/tag/{{ tag }}/">{{ tag }}</a>
+        Posted under blog <a class="catag" onmouseover="this.style.backgroundColor='{{ category.color }}',this.style.color='white'" onmouseout="this.style.backgroundColor='white',this.style.color='#343434'" href="{{ site.url }}/{{ category.slug }}/">{{ category.name }}</a> with <i class="fa fa-tags"></i>&nbsp;:&nbsp;&nbsp;&nbsp;{% for tag in page.tags %}<a class="catag" onmouseover="this.style.backgroundColor='#343434',this.style.color='white'" onmouseout="this.style.backgroundColor='white',this.style.color='#343434'" href="{{ site.url }}/tag/{{ tag }}/">{{ tag }}</a>
         {% endfor %}
         <br/>
         </p>
