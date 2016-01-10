@@ -3,6 +3,7 @@ layout: post
 title: 
 excerpt: ""
 tags: [reading, ]
+comments: true
 image:
   feature: windows.jpg
   credit: Azeril

@@ -3,6 +3,7 @@ layout: post
 title: Markdown 迷你语法指南
 excerpt: "一份简版的 Markdown 入门手册"
 tags: [guide, ]
+comments: true
 image:
   feature: windows.jpg
   credit: Azeril
