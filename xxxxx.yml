@@ -1,11 +1,10 @@
 # Site wide configuration
 
-title:            维港的烟火
+title:            Microdust
+tagline:          "Cookie's cookies" 
 description:      "迷失的人迷失了，相逢的人會再相逢"
 locale:           en_US
-timezone:         Asia/Beijing
 url:              
-
 
 # Site owner
 owner:
@@ -74,7 +73,12 @@ defaults:
         credit:  Azeril
         creditlink: http://azeril.me
 
+# Comments 
 
+  disqus-shortname: pawcat
 
-include: [".htaccess"]
-exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "less", "*.sublime-project", "*.sublime-workspace", "test", "spec", "Gruntfile.js", "package.json", "node_modules", "Gemfile", "Gemfile.lock", "LICENSE", "README.md"]
+# http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone:        Asia/Beijing
+
+include:         [".htaccess"]
+exclude:         ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "less", "*.sublime-project", "*.sublime-workspace", "test", "spec", "Gruntfile.js", "package.json", "node_modules", "Gemfile", "Gemfile.lock", "LICENSE", "README.md"]
