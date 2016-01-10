@@ -218,156 +218,69 @@ tags: [read, life, ]
 
 ***
 
-## Markdown 语法简述
+## 博客设定番外
 
-日常使用最频繁的就这个几个：
+与博客相关的一些其它设定
 
-标题、列表、引用、链接和图片。
+### 文章链接 link posts
 
-### 换行
+没什么特别的，在显示时直接在标题边上添加一个链接的图标。点击后可直接跳转相应的网页（方便收录博客之外的网页）。
 
-讲这些之前先说一下换行。Markdown 里无论你前面空多少格，呈现效果里文字都是从行首开始的。
+This theme supports **link posts**, made famous by John Gruber. To use, just add `link: http://url-you-want-linked` to the post's YAML front matter and you're done.
 
-而如果换行，有两个方式，第一，在行末空两格，而后回车；第二，在行末两次回车，空出一行，再继续写新的内容。
+> And this is how a quote looks.
 
-### 标题
+Some [link](http://www.mademistakes.com) can also be shown.
 
-标题都是「#」开头，空一格，后接文字。GitHub 显示支持六级标题。一般三级使用就够了。
+### 文章目录概览 Overview
 
-```
-# 我是一级标题
-## 二级标题啦
-### 嗯，是三级标题咯
-```
+显示在网页右侧的导航条，会将文章的一二三级目录合成到一列，便于点击和跳转。适用于长文。
 
-### 强调
+用法很简单，在博文正文开头（YAML 编码后，正文）添加以下代码片段，文章转化时会自动附加目录导航条：
 
-强调分两种：
+`{% include _toc.html %}`
 
-1. 斜体
-2. 加粗
+## 多作者模式 Author Override
 
-```
-*比萨斜塔*  
-**比萨**斜塔
-```
+These `owner` variables were defined in `config.yml`
 
-显示效果如下：
+Start by modifying or creating a new `authors.yml` file in the `_data` folder and add your authors using the following format.
 
-*比萨斜塔*  
-**比萨**斜塔
-
-除了使用「*」之外，还可以用下划线「_」来起到同样的作用。
-
-### 列表
-
-列表分有序列表和无序列表。
-
-有序列表/无序列表的语法形式是这样：
+{% highlight yaml %}
 
 ```
-有序一点如何：
+# Authors
 
-1.黑
-2.凤
-3.梨
+billy_rick:
+  name: Billy Rick
+  web: http://thewhip.com
+  email: billy@rick.com
+  bio: "What do you want, jewels? I am a very extravagant man."
+  avatar: bio-photo-2.jpg
+  twitter: extravagantman
+  google:
+    plus: BillyRick
+
+cornelius_fiddlebone:
+  name: Cornelius Fiddlebone
+  email: cornelius@thewhip.com
+  bio: "I ordered what?"
+  avatar: bio-photo.jpg
+  twitter: rhymeswithsackit
+  google:
+    plus: CorneliusFiddlebone
+{% endhighlight %}
 ```
 
-```
-生活好物~
+To assign Billy Rick as an author for our post. You'd add the following YAML front matter to a post:
 
-* iPhone
-* 乐泡移动电源
-* Kindle
-* 蚕丝围巾
-* Lamy 钢笔
-```
-
-注意空格，列表与前面的内容间要空一行，不然语法将无法使用。
-
-### 引用
-
-**引用**在摘录笔记时比较常用。
-
-语法形式如下（「>」后边，空一格后再添加具体内容）：
 
 ```
-> 我希望你有时候能驻足于这个令你感到惊叹的世界。如果和你想象的生活不一样，我希望你能有勇气，重新启程。
-> 
-> ——本杰明·巴顿
-```
-或者
-
-```
-歌德曾说过：
-
-> 最真诚的慷慨就是欣赏
+{% highlight yaml %}
+author: billy_rick
+{% endhighlight %}
 ```
 
-呈现的效果则是这样：
-
-> 我希望你有时候能驻足于这个令你感到惊叹的世界。如果和你想象的生活不一样，我希望你能有勇气，重新启程。
-> 
-> ——本杰明·巴顿奇事
-
-或者
-
-歌德曾说过：
-
-> 最真诚的慷慨就是欣赏
-
-
-### 链接
-
-添加链接的常用语法是这样：
-
-```
-[Link Name](Link) 
-```
-
-```
-[Google](http://google.com)
-```
-
-自动链接的形式则是这样
-
-```
-<http://paw.cat>
-```
-
-### 图片
-
-链接的语法前加「!」(英文是感叹号)就是图片链接的形式了。当然，链接的网址必须是图片的链接才行。通常，我们称之为直链，也即图片的直接链接。
-
-```
-![Pic name](Pic link)  
-```
-
-```
-![Instagram Pic](http://i.imgur.com/UKhrRrK.jpg)
-```
-
-效果是这样：
-
-![Instagram Pic](http://i.imgur.com/UKhrRrK.jpg)
-
-图床：图床是第三方服务托管个人上传图片，并提供图片外链，让我们在写博客文章时使用的方式。
-
-常用图床： 
-
-* [七牛云存储](http://www.qiniu.com/)
-* [Imgur](http://imgur.com/)
-* [Photobucket](http://s1381.photobucket.com/)
-
-图床在上传图片后会提供一个图片的外链。我们可以利用外链把图片添加到自己的博文中加以显示。当然，其实图片也可以存储在 Github 自己的博客仓库里（比如博客的首页大图），但图片蛮占用空间（Github 项目空间为200 M）。因而最好是选图床托管图片。
-
-### 其它语法
-
-还有诸如代码区块、转义符一类的语法，以及每个语法的具体细节强调，这里就不多说了。自己慢慢摸索，也可以在具体写作时参考详细的 Markdown 语法指南。
-
-扩展阅读：[Markdown 简明语法参考 - Microdust](http://azeril.me/blog/Markdown-Syntax.html)
-
-***
 
 ## 写作风格 
 
