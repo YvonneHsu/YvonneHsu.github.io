@@ -3,6 +3,7 @@ layout: post
 title: 诚实以对
 excerpt: "不欺骗自己"
 tags: [think, ]
+comments: true
 image:
   feature: goal.jpg
   credit: Azeril
