@@ -1,4 +1,4 @@
-<div class="ds-share" data-thread-key="{{ post.url }}" data-title="{{ post.title }}" data-images="{% if page.image.feature contains 'http' %}{{ page.image.feature }}{% else %}{{ site.url }}/images/{{ page.image.feature }}" data-content="{{ content | strip_html | truncate:80 }} | 维港的烟火:饼干的博客" data-url="{{ site.url }}{{ post.url }}">
+<div class="ds-share" data-thread-key="{{ post.url }}" data-title="{{ post.title }}" data-images="{% if page.image.feature contains 'http' %}{{ page.image.feature }}{% else %}{{ site.url }}/images/{{ page.image.feature }}{% endif %}" data-content="{{ content | strip_html | truncate:80 }} | 维港的烟火:饼干的博客" data-url="{{ site.url }}{{ post.url }}">
     <div class="ds-share-inline">
       <ul  class="ds-share-icons-32">
         
