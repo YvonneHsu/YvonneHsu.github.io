@@ -49,17 +49,21 @@ GitHub 知名代码托管平台。博客的所有文档都存放在 GitHub 的�
 
 ### GitHub 图形客户端
 
-打开 GitHub 的菜单（切换到 GitHub 界面，Mac 左上角的应用菜单），选择 Preference 偏好选项，点选 Account 登录个人 GitHub 账户。
+打开 GitHub 的菜单（如果是 Mac，先切换到 GitHub 界面，左上角的应用菜单，选择 Preference 偏好选项），点选 Account 登录个人 GitHub 账户。
 
 登录后，将已经 Fork 或已经存在的 GitHub Pages 项目从 GitHub （云端）中， Clone（相当于下载，不过是通过图形客户端或 Git 命令） 到本地来，以便于修改。
+
+![](http://dreamofbook.qiniudn.com/GitHubDesktopUseClone.png)
 
 一般情况下，博客项目命名都是「个人 ID + GitHub.io」形式。不然无法无法使用博客服务。
 
 ### 提交和同步博客的修改
 
-下载完项目后，可以在任务管理器里打开，做进一步的查看、修改文档、添加博文之类的操作。
+下载完项目后，可以在任务管理器（Mac 为 Finder）里打开，做进一步的查看、修改文档、添加博文之类的操作。
 
 在修改文件（修改文件和添加博文的方法，将在后边说明。）完成后，GitHub 客户端会将文件的修改细节（包括位置和次数）显示出来。由于文件是在本地修改的，因而还需要提交到 GitHub 的服务器上，修改才会最终生效。
+
+![](http://dreamofbook.qiniudn.com/GitHubDesktopUseCommitAndSync.png)
 
 提交的流程：
 
@@ -69,12 +73,17 @@ GitHub 知名代码托管平台。博客的所有文档都存放在 GitHub 的�
     3. 点击右上角的「Sync」；
     4. 文件同步完成，片刻后更新生效。
 
+图形客户端也支持查看历史记录并对特定操作进行恢复。
+
+![](http://dreamofbook.qiniudn.com/GitHubDesktopUseViewHistory.png)
+
+了解 GitHub 图形客户端的使用后，后续在本地修改博客设定或添加博文时，我们就可以方便地将任何与博客相关的更改同步到远程的仓库。而同步也就意味着，在网页端查看博客时的更新，比如，在同步添加一篇新博文的操作后，几秒钟后刷新网页，新博文就会出现在我们的博客里了。
 
 ***
 
 ## 博客构成
 
-接下来我们要了解一下 关于 Jekyll 博客的相关知识，以及具体可以做哪些自定义修改。
+嗯，接下来我们要了解一下 关于 Jekyll 博客的相关知识，以及具体可以做哪些自定义修改。
 
 基础目录结构：
 
