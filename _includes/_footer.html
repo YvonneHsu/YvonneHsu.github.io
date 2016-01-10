@@ -8,7 +8,16 @@
   ga('send', 'pageview');
 
 </script>
-
+<footer>
+    <div class="container">
+        <div class="row">
+          <p class="copyright text-muted">
+            &copy; {{ site.time | date: '%Y' }} {{ site.owner.name }} ❖ Powered by <a href="http://jekyllrb.com" rel="nofollow">Jekyll</a>.
+            </p>
+        </div>
+    </div>
+</footer>
+<!--
 <footer>
     <div class="container">
         <div class="row">
@@ -22,21 +31,4 @@
         </div>
     </div>
 </footer>
-<!--
-{% if site.owner.google.ad-client and site.owner.google.ad-slot %}
-<div class="google-ads">
-  ## 320 x 50 ad
-  <script async src="http://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-  <ins class="adsbygoogle"
-       style="display:inline-block;width:320px;height:50px"
-       data-ad-client="{{ site.owner.google.ad-client }}"
-       data-ad-slot="{{ site.owner.google.ad-slot }}"></ins>
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
-</div>
-{% endif %}
- /.google-ads -->
-<!--
-<span>&copy; {{ site.time | date: '%Y' }} {{ site.owner.name }} All rights reserved ❖ Powered by <a href="http://jekyllrb.com" rel="nofollow">Jekyll</a></span>
 -->
