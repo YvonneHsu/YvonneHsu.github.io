@@ -75,12 +75,9 @@ defaults:
         creditlink: http://azeril.me
 
 # Comments 
-comments:
-  provider:      duoshuo
-  duoshuo:
-    short_name:  pawcat
-  disqus:
-      short_name: pawcat
+
+ds.short_name:   pawcat
+dq.short_name:   pawcat
 
 # disqus-shortname: pawcat
 
