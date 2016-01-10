@@ -74,7 +74,15 @@ defaults:
         credit:  Azeril
         creditlink: http://azeril.me
 
-disqus-shortname: pawcat
+# Comments 
+comments:
+  provider:      duoshuo
+  duoshuo:
+    short_name:  pawcat
+  disqus:
+      short_name: pawcat
+
+# disqus-shortname: pawcat
 
 include: [".htaccess"]
 exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "less", "*.sublime-project", "*.sublime-workspace", "test", "spec", "Gruntfile.js", "package.json", "node_modules", "Gemfile", "Gemfile.lock", "LICENSE", "README.md"]
