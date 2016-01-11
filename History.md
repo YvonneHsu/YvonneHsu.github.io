@@ -1,14 +1,13 @@
 ---
-layout: page
-permalink: /History/
-title: Catch The Wind
-tagline: 博客更迭历史记录
-share: false
-comment： false
-image:
-  feature: cobbles2.jpg
-  credit: Azeril
-  creditlink: http://azeril.me
+layout: page  
+permalink: /History/  
+title: Catch The Wind  
+tagline: 博客更迭历史记录  
+share: false  
+image:  
+  feature: cobbles2.jpg  
+  credit: Azeril  
+  creditlink: http://azeril.me  
 ---
 
 * 12.3 项目筹划，收集可用文章集合，转换 markdown 格式；
