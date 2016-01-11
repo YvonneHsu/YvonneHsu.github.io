@@ -5,8 +5,8 @@ title: Catch The Wind
 tagline: 博客更迭历史记录
 share: false
 comment： false
-image:  
-  feature: cobbles2.jpg   
+image:
+  feature: cobbles2.jpg
   credit: Azeril
   creditlink: http://azeril.me
 ---
