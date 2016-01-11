@@ -3,6 +3,7 @@ layout: page
 permalink: /Start/  
 title: Start Guide
 excerpt: "开始一段新的旅程"  
+author: Azeril  
 share: false  
 image:
   feature: windows.jpg
