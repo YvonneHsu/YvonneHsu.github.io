@@ -1,6 +1,6 @@
 # Site navigation links
 
-- title: ARTICLES
+- title: Articles
   url: /Articles/
 
 - title: Tags
@@ -11,6 +11,9 @@
 
 - title: Wind
   url: /Wind/
+
+- title: History
+  url: /History/
 
 - title: About
   url: /About/
