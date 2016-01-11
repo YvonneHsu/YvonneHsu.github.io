@@ -1,10 +1,10 @@
 ---
 layout: page
-permalink: /Start/  
+permalink: /Start/
 title: Start Guide
-excerpt: "开始一段新的旅程"  
-author: Azeril  
-share: false  
+excerpt: "开始一段新的旅程"
+author: Azeril
+share: false
 image:
   feature: windows.jpg
   credit: Azeril
