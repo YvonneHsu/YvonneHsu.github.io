@@ -56,7 +56,7 @@ GitHub 知名代码托管平台。博客的所有文档都存放在 GitHub 的�
 
 ![](http://dreamofbook.qiniudn.com/GitHubDesktopUseClone.png)
 
-一般情况下，博客项目命名都是「个人 ID + GitHub.io」形式。不然无法无法使用博客服务。
+一般情况下，博客项目命名都是「个人 ID + GitHub.io」形式。不然无法正常使用博客服务。
 
 ### 提交和同步博客的修改
 
