@@ -40,7 +40,7 @@ owner:
 
 # Jekyll configuration
 
-permalink:        /:categories/:title/
+permalink:        none
 markdown:         kramdown
 highlighter:      pygments
 sass:
