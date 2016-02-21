@@ -10,7 +10,7 @@ image:
   creditlink: http://azeril.me
 ---
 
-![](http://dreamofbook.qiniudn.com/YvonneCookieYesterdayTime.jpg)
+![](http://dreamofbook.qiniudn.com/MacauYvonneOnStreet.jpg)
 
 這個博客屬於一個頂美好的人。
 
