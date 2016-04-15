@@ -1,9 +1,8 @@
 ---
 layout: page  
 permalink: /History/  
-title: Catch The Wind  
-tagline: 博客更迭历史记录  
-author: Azeril
+title: History 
+tagline: 博客更迭历史记录
 share: false  
 image:  
   feature: cobbles2.jpg  

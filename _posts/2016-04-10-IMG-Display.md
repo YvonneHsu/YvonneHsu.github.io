@@ -1,7 +1,7 @@
 ---
 layout: post
-title: 
-excerpt: ""
+title: 图片测试
+excerpt: "影像的显现"
 tags: [reading, ]
 image:
   feature: windows.jpg
@@ -9,6 +9,6 @@ image:
   creditlink: http://azeril.me
 ---
 
-{% include _toc.html %}
 
-Start writing...
+
+![Mow](http://paw.cat/lemon/Mow.jpg)

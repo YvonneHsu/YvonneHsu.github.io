@@ -3,7 +3,6 @@ layout: page
 permalink: /Start/
 title: Start Guide
 excerpt: "开始一段新的旅程"
-author: Azeril
 share: false
 image:
   feature: windows.jpg
@@ -231,6 +230,49 @@ tags: [read, life, ]
 ## 博客设定番外
 
 与博客相关的一些其它设定
+
+
+### 图片添加 Post Images 
+
+在 GitHub Blog 中添加图片主要有两种途径：
+
+1. 存放图片于 GitHub 博客仓库中并调用；
+2. 将图片托管于专门的图床服务并生成直链（Direct Link）进行调用；
+
+利用 GitHub 作为图床。进入仓库主目录，把图片存放在 `lemon`  文件夹下，撰写 markdown 博文时用 `![PicName](PicLink)` 的语法插入图片。
+
+只要存放的位置不变（依旧在「柠檬」文件夹中），那么使用语法插入图片时 `http://paw.cat/lemon/` 这个网站＋目录的前缀路径也是不变的，唯一变化的是这个路径后接的图片文件的具体文件名。
+
+当一张文件名为 `Cookie.png` 的图片存放于 `lemon` 目录下，则：
+
+```
+![](http://movyery.me/images/miao/Cat.png)
+```  
+
+图片文件管理的注意点：
+
+1. 为了便于查看，文件名应当是主动自定义好的，不要是乱码或胡乱重命名的；
+2. 重命名时要注意文件名的大小写；
+3. 存放于 GitHub 特定目录下的图片文件名唯一，才能保证在调用时不起冲突，所以对图片一般不要命名太简单。尽量是三个相关标签的单词组成为佳；
+4. 注意图片命名的美观和易于检索，可采取 [驼峰命名法](https://zh.wikipedia.org/zh/%E9%A7%9D%E5%B3%B0%E5%BC%8F%E5%A4%A7%E5%B0%8F%E5%AF%AB)。例如，对于《风之影》这本书，可以命名为：`TheShadowOfTheWind.png`。更多栗子：
+  * ImageOfTheUniversity.jpg
+  * GithubWebCommitNewFile.png
+  * WorkflowyCardsMakingGuide.png
+
+
+为博客添加图片的另一种方案是使用 [七牛云](http://www.qiniu.com/)/[Imgur](http://imgur.com/)/[Photobucket](Photobucket) 等图床服务。
+
+使用流程为：
+
+1. 上传图片；
+2. 获取到该图片的直链；
+3. 添加到 Markdown 文件中；
+4. 完成。
+
+具体的使用此处省略两百字。
+
+如果日常写博客，图片使用的量和频率都不大，目前来说，可只考虑用 GitHub 仓库进行存放和管理。
+
 
 ### 文章链接 link posts
 

@@ -179,4 +179,4 @@ Markdown 是一种轻量级标记语言，它允许人们使用易读易写的�
 
 在博文中并排显示多张图片的技巧。仅作了解：
 
-[Sample Post Images](http://paw.cat/Sample-Post-Images/)
+[Sample Post Images](http://paw.cat/Sample-Post-Images.html)

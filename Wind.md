@@ -3,7 +3,6 @@ layout: page
 permalink: /Wind/  
 title: Catch The Wind  
 tagline: 点滴思绪  
-author: Azeril
 share: false  
 image:  
   feature: lighttower.jpg   
