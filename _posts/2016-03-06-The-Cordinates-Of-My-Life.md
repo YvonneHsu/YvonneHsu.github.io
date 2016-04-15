@@ -1,7 +1,7 @@
 ---
 layout: post
-title: 留下的小小坐标
-excerpt: "给自己的参照物"
+title: 我生活的坐标系：Part One
+excerpt: "给未来的自己"
 tags: [reading, ]
 comments: true
 image:
