@@ -239,14 +239,14 @@ tags: [read, life, ]
 1. 存放图片于 GitHub 博客仓库中并调用；
 2. 将图片托管于专门的图床服务并生成直链（Direct Link）进行调用；
 
-利用 GitHub 作为图床。进入仓库主目录，把图片存放在 `lemon`  文件夹下，撰写 markdown 博文时用 `![PicName](PicLink)` 的语法插入图片。
+利用 GitHub 作为图床。进入仓库主目录，把图片存放在 `Lemon`  文件夹下，撰写 markdown 博文时用 `![ImageName](ImageLink)` 的语法插入图片。
 
-只要存放的位置不变（依旧在「柠檬」文件夹中），那么使用语法插入图片时 `http://paw.cat/lemon/` 这个网站＋目录的前缀路径也是不变的，唯一变化的是这个路径后接的图片文件的具体文件名。
+当一张文件名为 `Cookie.png` 的图片存放于 `Lemon` 目录下，那么使用语法插入图片时就是 `http://paw.cat/Lemon/` 
 
-当一张文件名为 `Cookie.png` 的图片存放于 `lemon` 目录下，则：
+只要存放的位置不变（依旧在「柠檬」文件夹中），那么域名＋目录的前缀路径也是不变的，唯一变化的是这个路径后接的图片文件的具体文件名。刚才的图片可以这样来调用：
 
 ```
-![](http://movyery.me/images/miao/Cat.png)
+![](http://movyery.me/images/miao/C ookie.png)
 ```  
 
 图片文件管理的注意点：
