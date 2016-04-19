@@ -3,7 +3,6 @@ layout: post
 title: 心情好好，一天
 excerpt: "记忆与印象"
 tags: [life, ]
-comments: true
 image:
   feature: grassland.jpg
   credit: Azeril

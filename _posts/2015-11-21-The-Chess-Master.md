@@ -1,9 +1,8 @@
 ---
 layout: post
-title: 棋王
+title: 棋王：活着当有一番热爱
 excerpt: "人有爱好并能够执着下去应该是件很幸福的事情吧"
-tags: [read, ]
-comments: true
+tags: [book, ]
 image:
   feature: mountains2.jpg
   credit: Azeril

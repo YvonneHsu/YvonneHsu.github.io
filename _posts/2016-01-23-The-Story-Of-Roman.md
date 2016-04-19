@@ -1,9 +1,8 @@
 ---
 layout: post
-title: 罗马人的故事1
-excerpt: "罗马建国的第一个500年"
-tags: [reading, ]
-comments: true
+title: 罗马帝国的起点
+excerpt: "罗马建国的第一个 500 年"
+tags: [book, ]
 image:
   feature: windows.jpg
   credit: Azeril

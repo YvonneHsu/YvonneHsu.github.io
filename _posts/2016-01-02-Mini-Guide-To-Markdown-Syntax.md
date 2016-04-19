@@ -12,6 +12,9 @@ image:
 
 {% include _toc.html %}
 
+
+## Start
+
 写作 Jekyll 博客使用的主要是两种语法：
 
 * HTML

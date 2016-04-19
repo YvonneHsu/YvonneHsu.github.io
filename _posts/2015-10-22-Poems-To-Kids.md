@@ -1,9 +1,8 @@
 ---
 layout: post
-title: 给孩子的诗
+title: 给小孩子的礼物
 excerpt: "这本可以留着给小朋友当睡前读本的小诗集"
-tags: [read, ]
-comments: true
+tags: [book, ]
 image:
   feature: street.jpg
   credit: Azeril

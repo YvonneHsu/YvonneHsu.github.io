@@ -1,9 +1,8 @@
 ---
 layout: post
-title: 2016第一站，常州
+title: 2016 第一站，常州
 excerpt: "喜欢在路上的感觉，有抵达也有归来"
-tags: [life, ]
-comments: true
+tags: [life, travel,]
 image:
   feature: windows.jpg
   credit: Azeril

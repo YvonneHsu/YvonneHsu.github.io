@@ -2,8 +2,7 @@
 layout: post
 title: 摇摇篮的手，爱与关切的眼眸
 excerpt: "孩子，是我们内心的映射"
-tags: [life, ]
-comments: true
+tags: [life, book, reading, ]
 image:
   feature: oranges.jpg
   credit: Azeril

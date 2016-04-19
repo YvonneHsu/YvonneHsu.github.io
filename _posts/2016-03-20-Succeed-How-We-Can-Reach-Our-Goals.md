@@ -1,9 +1,8 @@
 ---
 layout: post
-title: 授人以渔
+title: 更近一点，心想事成
 excerpt: "是什么，为什么，如果……就……"
-tags: [reading, ]
-comments: true
+tags: [book, ]
 image:
   feature: pigeons.jpg
   credit: Azeril

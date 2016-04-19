@@ -3,7 +3,6 @@ layout: post
 title: 煮面，喝汤，烤饼干
 excerpt: "以后某一天，我可以很霸气地说：「煮面、喝汤、饼干、蛋糕，还是别的？都会。」"
 tags: [life, baking, ]
-comments: true
 image:
   feature: street.jpg
   credit: Azeril

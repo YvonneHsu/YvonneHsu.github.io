@@ -3,7 +3,6 @@ layout: post
 title: 成为学姐的感觉
 excerpt: "心情不错的一天"
 tags: [life, ]
-comments: true
 image:
   feature: walker.jpg
   credit: Azeril

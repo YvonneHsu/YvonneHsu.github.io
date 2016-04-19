@@ -2,7 +2,7 @@
 layout: post
 title: 
 excerpt: ""
-tags: [reading, ]
+tags: [book, ]
 image:
   feature: windows.jpg
   credit: Azeril

@@ -2,8 +2,7 @@
 layout: post
 title: 一次出发，一个印刻
 excerpt: "给未来的自己"
-tags: [reading, ]
-comments: true
+tags: [book, ]
 image:
   feature: cups.jpg
   credit: Azeril
