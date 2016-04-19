@@ -2,7 +2,7 @@
 layout: post
 title: 暑假
 excerpt: "种一棵树最好的时机是十年前，其次就是现在"
-tags: [reading, life,]
+tags: [life,]
 image:
   feature: cobbles2.jpg
   credit: Azeril
