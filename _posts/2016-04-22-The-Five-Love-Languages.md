@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 爱的五种语言，如何将爱表达令心领会
+title: 爱的表达式
 excerpt: "让你的心被看见"
 tags: [book, ]
 image:
