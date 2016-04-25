@@ -1,5 +1,5 @@
 ---
-layout: page  
+layout: pages  
 permalink: /Wind/  
 title: Catch The Wind  
 tagline: 点滴思绪  

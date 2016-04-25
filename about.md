@@ -1,5 +1,5 @@
 ---
-layout: page  
+layout: pages  
 permalink: /About/  
 title: About  
 tagline: My Blog And Me  

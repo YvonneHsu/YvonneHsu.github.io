@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: pages
 permalink: /Start/
 title: Start Guide
 excerpt: "开始一段新的旅程"

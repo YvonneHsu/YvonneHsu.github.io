@@ -1,5 +1,5 @@
 ---
-layout: page  
+layout: pages  
 permalink: /History/  
 title: History 
 tagline: 博客更迭历史记录

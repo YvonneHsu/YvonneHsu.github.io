@@ -1,5 +1,5 @@
 ---
-layout: post-index
+layout: pages
 permalink: /Articles/
 title: Articles
 excerpt: A List of Posts
