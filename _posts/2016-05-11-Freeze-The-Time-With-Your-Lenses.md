@@ -1,7 +1,7 @@
 ---
 layout: post
-title: 定格瞬间 留住光影
-excerpt: "咔嚓 咔嚓"
+title: 定格时光
+excerpt: "定格瞬间，留住光影"
 tags: [life, ]
 image:
   feature: wire.jpg
