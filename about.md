@@ -6,8 +6,8 @@ tagline: My Blog And Me
 share: false   
 image:  
   feature: blue.jpg  
-  credit: Azeril
-  creditlink: http://azeril.me
+  credit: 
+  creditlink: 
 ---
 
 ![](http://dreamofbook.qiniudn.com/MacauYvonneOnStreet.jpg)
@@ -25,5 +25,3 @@ image:
 迷失的人迷失了 相逢的人會再相逢。過很久 諸多曲折 才回味過來。
 
 很榮幸 這一次 能有這樣的機會為她效勞。
-
-──*Azeril*
