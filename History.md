@@ -10,6 +10,9 @@ image:
   creditlink: http://azeril.me  
 ---
 
+* 0706 
+  * 更新主题大图路径
+  * 制作并导入第五批 Blog Themes
 * 0421 制作并导入第四批 Blog Themes 
 * 0419 
   * 更新标签系统

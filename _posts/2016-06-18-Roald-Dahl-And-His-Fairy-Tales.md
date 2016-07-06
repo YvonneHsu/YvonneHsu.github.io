@@ -13,9 +13,9 @@ image:
 
 > 一个瘦瘦的、秃顶的、总是带着一脸狡黠的笑的老头，无论他跑到美国、英国、荷兰、德国、法国、澳大利亚或新西兰，当然现在也包括中国，随便敲开一家有小孩子的屋子说：「啊，我走累了，我的车用光了汽油，可以请我进来喝杯茶吗？」孩子们会立刻尖叫着、欢呼雀跃地迎他进门，因为没有孩子不认识这个老头，他就是那个让大人们有点害怕、让孩子们疯狂着迷的**罗尔德·达尔**。
 
-![](/images/RoaldDahl.jpg)
+![](/lemon/RoaldDahl.jpg)
 
-![](/images/RoaldDahlWithHisPets.jpg)
+![](/lemon/RoaldDahlWithHisPets.jpg)
 
 罗尔德·达尔（Roald Dahl，1916 年 9 月 13 日－1990 年 11 月 23 日）是英国著名童话文学作家。他创作了非常多为世界各地小朋友所喜爱的童话故事。
 
@@ -50,7 +50,7 @@ image:
 * 喂咕呜爱情咒 Esio Trot （1989 年）
 
 
-![](/images/RoaldDahlBooksCollection.jpg)
+![](/lemon/RoaldDahlBooksCollection.jpg)
 
 Puffin 出版社 罗尔德·达尔 作品集书影
 
