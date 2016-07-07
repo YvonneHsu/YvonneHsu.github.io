@@ -41,4 +41,4 @@ image:
 
 读完《人间草木》再回过头来想要描述一下对汪先生文字印象的时候，发现这两句说得还真就这么回事。很是贴切。
 
-![](http://paw.cat/lemon/TreeAndLight.jpg)
+
