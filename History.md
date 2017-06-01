@@ -7,7 +7,7 @@ share: false
 image:  
   feature: cobbles2.jpg  
   credit: Azeril  
-  creditlink: http://azeril.me  
+  creditlink: 
 ---
 
 **~2017**
@@ -19,7 +19,7 @@ image:
 **~2016**
 
 * 1023 
-  * 新增 Sparks Page(http://paw.cat/Sparks/)
+  * 新增 [Sparks Page](http://paw.cat/Sparks/)
 * 0706 
   * 更新全站 Blog Themes 路径
   * 制作并导入第五批 Blog Themes
