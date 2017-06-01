@@ -2,7 +2,7 @@
 layout: pages  
 permalink: /History/  
 title: History 
-tagline: 博客更迭历史记录
+tagline: 博客相关事件记录
 share: false  
 image:  
   feature: cobbles2.jpg  
@@ -20,6 +20,7 @@ image:
 
 * 1023 
   * 新增 [Sparks](http://paw.cat/Sparks/) 页面
+  * 更新博客发布以来的第 36 篇博文
 * 0706 
   * 更新全站 Blog Themes 路径
   * 导入第五批 Blog Themes
@@ -70,6 +71,7 @@ image:
   * 发布博客初版
 * 0101 
   * 确认选用 Blog 主题模板
+  * 更新博客发布以来的第 10 篇博文
 
 **~2015**
 
