@@ -10,6 +10,11 @@ image:
   creditlink: http://azeril.me  
 ---
 
+**~2017**
+* 0601
+  * 切换博客评论系统，移除多说，添加 Disqus 评论
+
+**~2016**
 * 0706 
   * 更新主题大图路径
   * 制作并导入第五批 Blog Themes
